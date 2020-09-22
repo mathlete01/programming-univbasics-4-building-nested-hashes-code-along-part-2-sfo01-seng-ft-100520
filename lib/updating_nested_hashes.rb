@@ -24,19 +24,13 @@ def update_status
   # Code your solution here:
   #epic_tragedy[:montague][:hero][:status] = "dead"
   #epic_tragedy[:capulet][:heroine][:status] = "dead"
-  #counter = 0
-  epic_tragedy[1]
-  #epic_tragedy[1][2]
-  #epic_tragedy[1][2][:status]
-
-  #while counter < epic_tragedy.length
-  #  epic_tragedy[counter][2][:status] = "dead"
-
-  #  counter += 1
-  #end
-
+  counter = 0
+  while counter < epic_tragedy.length
+    epic_tragedy[counter][2][:status] = "dead"
+    counter += 1
+  end
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
-  #epic_tragedy
+  epic_tragedy
 end
 
 update_status()
