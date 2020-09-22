@@ -27,6 +27,9 @@ def update_status
   counter = 0
   while counter < epic_tragedy.length
     epic_tragedy[counter][2][:status] = "dead"
+    puts epic_tragedy[counter]
+    puts epic_tragedy[counter][2]
+    puts epic_tragedy[counter][2][:status]
     counter += 1
   end
 
