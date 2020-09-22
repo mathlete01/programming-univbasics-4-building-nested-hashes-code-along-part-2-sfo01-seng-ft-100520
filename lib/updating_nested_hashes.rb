@@ -25,7 +25,7 @@ def update_status
   #epic_tragedy[:montague][:hero][:status] = "dead"
   #epic_tragedy[:capulet][:heroine][:status] = "dead"
   counter = 0
-  while counder < epic_tragedy.length
+  while counter < epic_tragedy.length
     epic_tragedy[counter][2][:status] = "dead"
     counter += 1
   end
