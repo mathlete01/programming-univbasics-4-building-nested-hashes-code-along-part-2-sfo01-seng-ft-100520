@@ -33,7 +33,7 @@ def update_status
   epic_tragedy
 end
 
-update_status()
+update_status
 
 def add_characters
    epic_tragedy = {
